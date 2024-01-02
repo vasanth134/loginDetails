@@ -77,8 +77,9 @@ input {
 #submit {
   /* height: 50px; */
   width: 100px;
-  text-align: center;
   font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-weight: bolder;
   background-color: #1fcaa7;
   text-transform: capitalize;
@@ -100,6 +101,11 @@ img{
   height: 40%;
   width: 40px;
   padding-right: 20px;
+}
+img:hover{
+  transform: scale(1.1,1.1);
+  transition: 500ms;
+  opacity: 30%;
 }
 #thanks{
   color: #1fcaa7;

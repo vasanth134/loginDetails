@@ -28,6 +28,7 @@ body {
     background-image: url(images/3.jpg);
   }
 }
+
 /* Positioning and Color */
 #companyName {
   font-size: clamp(48px, 7vw, 80px);

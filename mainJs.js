@@ -10,5 +10,5 @@ const thanks = () => {
     document.getElementById("thanks").innerHTML = "Thanks";
 }
 const none = () => {
-    document.getElementById("thanks").innerHTML = "     ";
+    document.getElementById("thanks").innerHTML = " ";
 }
